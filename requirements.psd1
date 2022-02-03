@@ -5,7 +5,7 @@
     # For latest supported version, go to 'https://www.powershellgallery.com/packages/Az'.
     # To use the Az module in your function app, please uncomment the line below.
     # 'Az' = '7.*'
-    'PSDesiredStateConfiguration' = "2.0.5"
+    'PSDesiredStateConfiguration' = "3.0.0-beta1"
     "DSCParser" = "1.3.0.2"
     "ExchangeOnlineManagement" = "2.0.5"
     "Microsoft.Graph.Authentication" = "1.9.2"
