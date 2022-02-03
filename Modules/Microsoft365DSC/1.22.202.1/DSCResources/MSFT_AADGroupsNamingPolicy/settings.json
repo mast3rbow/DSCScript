@@ -1,0 +1,30 @@
+﻿{
+    "resourceName": "AADGroupsNamingPolicy",
+    "description": "This resource configures the Azure Active Directory groups naming policy.",
+    "permissions": [
+        {
+            "read": [
+                {
+                    "name": "Directory.AccessAsUser.All"
+                },
+                {
+                    "name": "Directory.Read.All"
+                },
+                {
+                    "name": "Directory.ReadWrite.All"
+                }
+            ],
+            "update": [
+                {
+                    "name": "Directory.AccessAsUser.All"
+                },
+                {
+                    "name": "Directory.Read.All"
+                },
+                {
+                    "name": "Directory.ReadWrite.All"
+                }
+            ]
+        }
+    ]
+}
