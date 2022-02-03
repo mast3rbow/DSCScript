@@ -8,6 +8,7 @@ param($Request, $TriggerMetadata)
 Import-Module PSDesiredStateConfiguration -Force
 #Import-Module AzureADPreview -UseWindowsPowerShell -Force
 Import-Module Microsoft365DSC -UseWindowsPowerShell -Force
+Enable-ExperimentalFeature PSDesiredStateConfiguration.InvokeDscResource
 
 # Retrieve the method to call (Get/Set/Test) from the query string.
 # Default to Test is non passed;
